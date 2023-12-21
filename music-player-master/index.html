@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<html>
+<head>
+  <title>Music Player</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="imagens/favicon1.ico" type="image/x-icon">
+
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+  <div class="player">
+
+    <div class="logo">
+      <i class='bx bx-music'></i>
+    </div>
+    
+    <span id="musicName"></span>
+    
+    <audio id="player" src=""></audio>
+    <div class="controls">
+      <button id="prevButton"><i class='bx bx-skip-previous'></i></button>
+      <button id="playPauseButton"><i class='bx bx-caret-right'></i></button>
+      <button id="nextButton"><i class='bx bx-skip-next'></i></button>
+    </div>
+    <div class="footer">
+      <div class="progress-bar">
+        <div class="progress"></div>
+      </div>
+      <div class="time">
+        <span id="currentTime">0:00</span>
+        <span id="duration">0:00</span>
+      </div>
+    </div>
+  </div>
+  <script type="module" src="script.js"></script>
+  <!-- <script type="module" src="songs.js"></script> -->
+
+</body>
+</html>
+
+
+
